@@ -6,6 +6,7 @@ import Navbar from "./homePages/Navbar";
 import PremiumTools from "./homePages/PremiumTools";
 import ProductsCard from "./homePages/ProductsCard";
 import Tab from "./homePages/Tab";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const fetchPromises = async () =>{
@@ -22,6 +23,9 @@ function App() {
       <Suspense fallback={'loading....'}>
       <Tab ProductPromises={ProductPromises}></Tab>
       </Suspense>
+
+
+      <ToastContainer />
     </>
   );
 }
