@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "DesignPro Suite",
+    "description": "Professional design tools for creating stunning visuals, UI mockups, and brand assets with ease.",
+    "price": 12,
+    "period": "Monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "Brand kit", "Export to PDF", "Team collaboration", "Cloud storage"],
+    "img": "https://i.ibb.co.com/zTYJXdNp/palette.jpg"
+  },
+  {
+    "id": 2,
+    "name": "AI Writer",
+    "description": "Generate high-quality content, blogs, and marketing copy instantly using advanced AI technology.",
+    "price": 9,
+    "period": "Monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Unlimited words", "SEO optimization", "Plagiarism check", "20+ languages", "API access"],
+    "img": "https://i.ibb.co.com/Pss3FVBH/1973807.png"
+  },
+  {
+    "id": 3,
+    "name": "PDF Master",
+    "description": "Edit, convert, merge, and sign PDF documents seamlessly without any desktop software.",
+    "price": 49,
+    "period": "One-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Export to PDF", "Merge & split", "E-signature", "OCR scanning", "Password protection"],
+    "img": "https://i.ibb.co.com/cS85CgFq/pdf-icon-white-background-250nw-2695497567.webp"
+  },
+  {
+    "id": 4,
+    "name": "VideoFlow",
+    "description": "Edit and export professional-grade videos with AI-powered tools, transitions, and effects.",
+    "price": 199,
+    "period": "Yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["4K export", "AI subtitles", "500+ transitions", "Audio mixing", "Cloud backup"],
+    "img": "https://i.ibb.co.com/8DzKrTpz/640278db71e9352a30fc8f14b93e9f44.jpg"
+  },
+  {
+    "id": 5,
+    "name": "DataVault",
+    "description": "Secure cloud storage and file management solution for teams and individual professionals.",
+    "price": 6,
+    "period": "Monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["1TB storage", "End-to-end encryption", "File versioning", "Team sharing", "Auto backup"],
+    "img": "https://i.ibb.co.com/F4B3nv28/data-vault-icon-vector.jpg"
+  },
+  {
+    "id": 6,
+    "name": "SEO Booster",
+    "description": "Analyze, track, and improve your website's search engine ranking with actionable insights.",
+    "price": 79,
+    "period": "Yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Keyword tracker", "Backlink analysis", "Site audit", "Competitor research", "Weekly reports"],
+    "img": "https://i.ibb.co.com/zWFsWSWS/seo.png"
+  },
+  {
+    "id": 7,
+    "name": "CodeSnap",
+    "description": "Create beautiful code screenshots and documentation snippets to share with your team.",
+    "price": 29,
+    "period": "One-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["50+ themes", "Syntax highlighting", "Export PNG/SVG", "Custom fonts", "Watermark removal"],
+    "img": "https://i.ibb.co.com/fGC6hjCM/codespan.png"
+  },
+  {
+    "id": 8,
+    "name": "FormCraft",
+    "description": "Build powerful forms, surveys, and quizzes with drag-and-drop simplicity and smart analytics.",
+    "price": 15,
+    "period": "Monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited forms", "File uploads", "Payment integration", "Analytics dashboard", "Webhooks"],
+    "img": "https://i.ibb.co.com/WpcVd0CL/form.png"
+  },
+  {
+    "id": 9,
+    "name": "MailBlast",
+    "description": "Send targeted email campaigns with beautiful templates and real-time performance tracking.",
+    "price": 99,
+    "period": "Yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["10K contacts", "ATS optimization", "A/B testing", "Auto-responders", "Detailed analytics"],
+    "img": "https://i.ibb.co.com/Cp03gWD9/mail.png"
+  },
+  {
+    "id": 10,
+    "name": "MindMapper",
+    "description": "Visualize ideas and plan projects with interactive mind maps and real-time team collaboration.",
+    "price": 39,
+    "period": "One-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Unlimited nodes", "Export to PDF", "Team sync", "Presentation mode", "100+ templates"],
+    "img": "https://i.ibb.co.com/W4vx2rZv/mind.png"
+  }
+]
