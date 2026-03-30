@@ -56,7 +56,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-4">
-            <button className="btn btn-outline  rounded-4xl">{<ShoppingCart></ShoppingCart>}</button>
+            <button className="btn btn-ghost  rounded-4xl">{<ShoppingCart></ShoppingCart>}</button>
           <button className="btn btn-outline bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[16px] text-[white] rounded-4xl">Get Started</button>
         </div>
       </div>
