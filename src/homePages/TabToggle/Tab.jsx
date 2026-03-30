@@ -1,6 +1,6 @@
 import React, { use, useState } from "react";
-import ProductsCard from "./ProductsCard";
-import AddedProductsCard from "./AddedProductsCard";
+import ProductsCard from "../AllProductsBeforeAddedToCart/ProductsCard.jsx";
+import AddedProductsCard from "../AddToCartProducts/AddedProductsCard.jsx";
 
 const Tab = ({ ProductPromises, setSelectedCart, SelectedCart }) => {
   const ProductsData = use(ProductPromises);

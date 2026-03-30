@@ -40,7 +40,7 @@ const Products = ({ data, setSelectedCart, SelectedCart }) => {
       <p className="text-[24px] font-bold text-[#101727]">{data.name}</p>
       <p className="text-[#627382] text-[16px] h-full">{data.description}</p>
       <p className="text-[20px] text-[#101727] font-bold">
-        ${data.price}{" "}
+        ${data.price}
         <span className="text-[16px] text-[#627382] font-medium">
           /{data.period}
         </span>

@@ -1,6 +1,6 @@
 import { Palette } from "lucide-react";
 import React from "react";
-import Products from "./Products";
+import Products from "./Products.jsx";
 
 const ProductsCard = ({ ProductsData, SelectedCart, setSelectedCart }) => {
   console.log(SelectedCart.length)

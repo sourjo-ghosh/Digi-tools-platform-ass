@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import AddedProductsSingleCard from "./AddedProductsSingleCard";
-import OrderSuccess from "./OrderSuccess";
+import AddedProductsSingleCard from "./AddedProductsSingleCard.jsx";
+import OrderSuccess from "../OrderSuccessComp/OrderSuccess.jsx";
 import { toast } from "react-toastify";
 
 const AddedProductsCard = ({ SelectedCart, setSelectedCart }) => {
@@ -61,10 +61,3 @@ const AddedProductsCard = ({ SelectedCart, setSelectedCart }) => {
 };
 
 export default AddedProductsCard;
-
-{
-  /* SelectedCart={SelectedCart}
-            data={data}
-            key={data.id}
-            setSelectedCart={setSelectedCart} */
-}

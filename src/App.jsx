@@ -1,15 +1,17 @@
 import { Suspense, useState } from "react";
 import "./App.css";
-import Banner from "./homePages/Banner";
-import HomeStat from "./homePages/HomeStat";
-import Navbar from "./homePages/Navbar";
-import PremiumTools from "./homePages/PremiumTools";
-import ProductsCard from "./homePages/ProductsCard";
-import Tab from "./homePages/Tab";
+import Banner from "./homePages/Banner/Banner.jsx";
+import HomeStat from "./homePages/Stat/HomeStat.jsx";
+import Navbar from "./homePages/Navbar/Navbar.jsx";
+import PremiumTools from "./homePages/PremiumToopsTab/PremiumTools.jsx";
+import ProductsCard from "./homePages/AllProductsBeforeAddedToCart/ProductsCard.jsx";
+import Tab from "./homePages/TabToggle/Tab.jsx";
 import { ToastContainer } from "react-toastify";
 import React from "react";
-import GetStarted from "./homePages/GetStarted";
-import Confirmation from "./homePages/OrderSuccess";
+import GetStarted from "./homePages/GetStarted/GetStarted.jsx";
+import Confirmation from "./homePages/OrderSuccessComp/OrderSuccess.jsx";
+import SuspanseLoading from "./homePages/SuspanseSkeleton/SuspanseLoading.jsx";
+import Pricing from "./homePages/Pricing/Pricing.jsx";
 
 function App() {
   const fetchPromises = async () =>{
@@ -24,10 +26,11 @@ function App() {
       <Banner></Banner>
       <HomeStat></HomeStat>
       <PremiumTools></PremiumTools>
-      <Suspense fallback={'loading....'}>
+      <Suspense fallback={<SuspanseLoading></SuspanseLoading>}>
       <Tab ProductPromises={ProductPromises} setSelectedCart={setSelectedCart} SelectedCart={SelectedCart}></Tab>
       </Suspense>
       <GetStarted></GetStarted>
+      <Pricing></Pricing>
       <ToastContainer />
     </>
   );

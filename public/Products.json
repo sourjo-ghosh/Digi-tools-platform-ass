@@ -97,16 +97,5 @@
     "tagType": "best seller",
     "features": ["10K contacts", "ATS optimization", "A/B testing", "Auto-responders", "Detailed analytics"],
     "img": "https://i.ibb.co.com/Cp03gWD9/mail.png"
-  },
-  {
-    "id": 10,
-    "name": "MindMapper",
-    "description": "Visualize ideas and plan projects with interactive mind maps and real-time team collaboration.",
-    "price": 39,
-    "period": "One-time",
-    "tag": "New",
-    "tagType": "new",
-    "features": ["Unlimited nodes", "Export to PDF", "Team sync", "Presentation mode", "100+ templates"],
-    "img": "https://i.ibb.co.com/W4vx2rZv/mind.png"
   }
 ]
