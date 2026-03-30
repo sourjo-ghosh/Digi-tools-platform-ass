@@ -42,7 +42,7 @@ const Tab = ({ ProductPromises, setSelectedCart, SelectedCart }) => {
       {Active === "products" ? (
         <ProductsCard ProductsData={ProductsData} SelectedCart={SelectedCart} setSelectedCart={setSelectedCart}></ProductsCard>
       ) : (
-        <AddedProductsCard ProductsData={ProductsData} SelectedCart={SelectedCart}></AddedProductsCard>
+        <AddedProductsCard ProductsData={ProductsData} SelectedCart={SelectedCart} setSelectedCart={setSelectedCart}></AddedProductsCard>
       )}
     </>
   );
