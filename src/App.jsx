@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Banner from "./homePages/Banner";
 import HomeStat from "./homePages/HomeStat";
@@ -7,6 +7,7 @@ import PremiumTools from "./homePages/PremiumTools";
 import ProductsCard from "./homePages/ProductsCard";
 import Tab from "./homePages/Tab";
 import { ToastContainer } from "react-toastify";
+import React from "react";
 
 function App() {
   const fetchPromises = async () =>{
@@ -14,14 +15,15 @@ function App() {
       return res.json()
   }
   const ProductPromises = fetchPromises()
+    const [SelectedCart, setSelectedCart] = useState([]);
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar setSelectedCart={setSelectedCart} SelectedCart={SelectedCart}></Navbar>
       <Banner></Banner>
       <HomeStat></HomeStat>
       <PremiumTools></PremiumTools>
       <Suspense fallback={'loading....'}>
-      <Tab ProductPromises={ProductPromises}></Tab>
+      <Tab ProductPromises={ProductPromises} setSelectedCart={setSelectedCart} SelectedCart={SelectedCart}></Tab>
       </Suspense>
 
 

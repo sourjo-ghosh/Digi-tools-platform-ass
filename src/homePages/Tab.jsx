@@ -2,10 +2,11 @@ import React, { use, useState } from "react";
 import ProductsCard from "./ProductsCard";
 import AddedProductsCard from "./AddedProductsCard";
 
-const Tab = ({ ProductPromises }) => {
+const Tab = ({ ProductPromises, setSelectedCart, SelectedCart }) => {
   const ProductsData = use(ProductPromises);
   const [Active, setActive] = useState("products");
   const HandleTabBtn = () => {};
+//   console.log(SelectedCart)
   return (
     <>
       <div className="flex justify-center items-center">
@@ -34,15 +35,14 @@ const Tab = ({ ProductPromises }) => {
                 : "text-[#1a0066]"
             }`}
           >
-            Cart (2)
+            Cart ({SelectedCart.length})
           </button>
         </div>
       </div>
       {Active === "products" ? (
-        <ProductsCard ProductsData={ProductsData}></ProductsCard>
-
+        <ProductsCard ProductsData={ProductsData} SelectedCart={SelectedCart} setSelectedCart={setSelectedCart}></ProductsCard>
       ) : (
-        <AddedProductsCard ProductsData={ProductsData}></AddedProductsCard>
+        <AddedProductsCard ProductsData={ProductsData} SelectedCart={SelectedCart}></AddedProductsCard>
       )}
     </>
   );

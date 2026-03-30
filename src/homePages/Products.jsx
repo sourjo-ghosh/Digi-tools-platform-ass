@@ -2,12 +2,19 @@ import { Check } from "lucide-react";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 
-const Products = ({ data }) => {
+const Products = ({ data, setSelectedCart, SelectedCart }) => {
   const [Active, setActive] = useState(false);
   const HandleCartBtn = (data) => {
-    console.log(data);
+    const isAlreadyAdded = SelectedCart.some((item) => item.id === data.id);
+
+    if (isAlreadyAdded) {
+      toast.error(`${data.name} already in cart!`);
+      return;
+    }
+
     setActive(true);
-    toast.success(`hello world`);
+    setSelectedCart([...SelectedCart, data]);
+    toast.success(`${data.name} added to cart!`);
   };
   return (
     <div className="relative p-8 border border-gray-300 rounded-2xl gap-3 h-full flex flex-col items-start">
@@ -47,6 +54,7 @@ const Products = ({ data }) => {
       </ul>
       <button
         onClick={() => HandleCartBtn(data)}
+        disabled={Active}
         className="btn w-full px-30 py-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl"
       >
         {Active ? "Added to cart" : "Buy Now"}

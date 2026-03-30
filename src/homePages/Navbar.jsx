@@ -2,7 +2,7 @@ import React from "react";
 import ".././App.css";
 import { ShoppingCart, TextAlignJustify } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({ SelectedCart }) => {
   return (
     <>
       <div className="flex justify-between items-center navbar bg-white border-b border-gray-300">
@@ -55,9 +55,18 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end gap-4">
-            <button className="btn btn-ghost  rounded-4xl">{<ShoppingCart></ShoppingCart>}</button>
-          <button className="btn btn-outline bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[16px] text-[white] rounded-4xl">Get Started</button>
+        <div className="navbar-end gap-7">
+          <div className="relative">
+            <p className="absolute -top-3 rounded-full p-1 left-5 text-xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[16px] text-white">
+              {SelectedCart.length}
+            </p>
+            <button className="rounded-4xl">
+              {<ShoppingCart></ShoppingCart>}
+            </button>
+          </div>
+          <button className="btn btn-outline bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[16px] text-[white] rounded-4xl">
+            Get Started
+          </button>
         </div>
       </div>
     </>
