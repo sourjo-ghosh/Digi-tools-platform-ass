@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./homePages/Banner";
+import HomeStat from "./homePages/HomeStat";
 import Navbar from "./homePages/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <HomeStat></HomeStat>
     </>
   );
 }

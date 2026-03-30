@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     // <div className="py-20 flex md:justify-between md:items-center flex-col gap-15">
-    <div className="py-20 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center gap-20 lg:px-30">
+    <div className="pt-20 mb-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center gap-20 lg:px-30">
       <div className="left-side space-y-3">
         <p className="bg-[#E1E7FF] inline py-1.5 px-2 rounded-2xl">
           <span className="text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent leading-normal">
