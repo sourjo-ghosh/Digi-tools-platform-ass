@@ -54,7 +54,6 @@ const Products = ({ data, setSelectedCart, SelectedCart }) => {
       </ul>
       <button
         onClick={() => HandleCartBtn(data)}
-        disabled={Active}
         className="btn w-full px-30 py-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl"
       >
         {Active ? "Added to cart" : "Buy Now"}

@@ -8,6 +8,8 @@ import ProductsCard from "./homePages/ProductsCard";
 import Tab from "./homePages/Tab";
 import { ToastContainer } from "react-toastify";
 import React from "react";
+import GetStarted from "./homePages/GetStarted";
+import Confirmation from "./homePages/OrderSuccess";
 
 function App() {
   const fetchPromises = async () =>{
@@ -25,8 +27,7 @@ function App() {
       <Suspense fallback={'loading....'}>
       <Tab ProductPromises={ProductPromises} setSelectedCart={setSelectedCart} SelectedCart={SelectedCart}></Tab>
       </Suspense>
-
-
+      <GetStarted></GetStarted>
       <ToastContainer />
     </>
   );
