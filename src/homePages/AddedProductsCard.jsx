@@ -3,7 +3,7 @@ import React from 'react';
 const AddedProductsCard = () => {
     return (
         <div>
-            form added to cart hello world
+            nothing
         </div>
     );
 };
