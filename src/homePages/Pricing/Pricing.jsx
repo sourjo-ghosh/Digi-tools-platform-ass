@@ -63,7 +63,7 @@ const Pricing = () => {
         </div>
 
       </div>
-  ); gap-2
+  );
 };
 
 export default Pricing;

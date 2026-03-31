@@ -12,6 +12,8 @@ import GetStarted from "./homePages/GetStarted/GetStarted.jsx";
 import Confirmation from "./homePages/OrderSuccessComp/OrderSuccess.jsx";
 import SuspanseLoading from "./homePages/SuspanseSkeleton/SuspanseLoading.jsx";
 import Pricing from "./homePages/Pricing/Pricing.jsx";
+import ReadyTotransform from "./homePages/ReadyToTransform/ReadyTotransform.jsx";
+import Footer from "./homePages/Footer/Footer.jsx";
 
 function App() {
   const fetchPromises = async () =>{
@@ -31,6 +33,8 @@ function App() {
       </Suspense>
       <GetStarted></GetStarted>
       <Pricing></Pricing>
+      <ReadyTotransform></ReadyTotransform>
+      <Footer></Footer>
       <ToastContainer />
     </>
   );
