@@ -1,12 +1,9 @@
-import React, { use, useState } from "react";
 import ProductsCard from "../AllProductsBeforeAddedToCart/ProductsCard.jsx";
 import AddedProductsCard from "../AddToCartProducts/AddedProductsCard.jsx";
 
-const Tab = ({ ProductPromises, setSelectedCart, SelectedCart }) => {
-  const ProductsData = use(ProductPromises);
-  const [Active, setActive] = useState("products");
+const Tab = ({ SelectedCart, Active, setActive }) => {
+  
   const HandleTabBtn = () => {};
-//   console.log(SelectedCart)
   return (
     <>
       <div className="flex justify-center items-center">
@@ -39,11 +36,6 @@ const Tab = ({ ProductPromises, setSelectedCart, SelectedCart }) => {
           </button>
         </div>
       </div>
-      {Active === "products" ? (
-        <ProductsCard ProductsData={ProductsData} SelectedCart={SelectedCart} setSelectedCart={setSelectedCart}></ProductsCard>
-      ) : (
-        <AddedProductsCard ProductsData={ProductsData} SelectedCart={SelectedCart} setSelectedCart={setSelectedCart}></AddedProductsCard>
-      )}
     </>
   );
 };

@@ -12,8 +12,10 @@ import SuspanseLoading from "./homePages/SuspanseSkeleton/SuspanseLoading.jsx";
 import Pricing from "./homePages/Pricing/Pricing.jsx";
 import ReadyTotransform from "./homePages/ReadyToTransform/ReadyTotransform.jsx";
 import Footer from "./homePages/Footer/Footer.jsx";
+import ProductsRender from "./homePages/ProductsRender/ProductsRender.jsx";
 
 function App() {
+  const [Active, setActive] = useState("products");
   const fetchPromises = async () =>{
       const res = await fetch('/Products.json')
       return res.json()
@@ -26,8 +28,9 @@ function App() {
       <Banner></Banner>
       <HomeStat></HomeStat>
       <PremiumTools></PremiumTools>
+      <Tab setSelectedCart={setSelectedCart} SelectedCart={SelectedCart} Active={Active} setActive={setActive}></Tab>
       <Suspense fallback={<SuspanseLoading></SuspanseLoading>}>
-      <Tab ProductPromises={ProductPromises} setSelectedCart={setSelectedCart} SelectedCart={SelectedCart}></Tab>
+      <ProductsRender ProductPromises={ProductPromises} setSelectedCart={setSelectedCart} SelectedCart={SelectedCart} Active={Active} setActive={setActive}></ProductsRender>
       </Suspense>
       <GetStarted></GetStarted>
       <Pricing></Pricing>

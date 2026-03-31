@@ -1,16 +1,84 @@
-# React + Vite
+📌 Digi Tools Platform
+🚀 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Digi Tools Platform is a frontend-focused web application built with React.js and Tailwind CSS as part of a bootcamp assignment. The project demonstrates the ability to build reusable components, manage state, and design a responsive UI while integrating multiple utility tools into a single platform.
 
-Currently, two official plugins are available:
+🎯 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The main goal of this project was to:
 
-## React Compiler
+Practice component-based architecture in React
+Improve state management skills
+Build a responsive UI using Tailwind CSS
+Create a scalable structure for adding multiple tools
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React.js
+Styling: Tailwind CSS
+Build Tool: Vite 
+Package Manager: npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🧠 Key Concepts Implemented
+Component-based design
+Props & state management
+Dynamic rendering
+Conditional UI rendering
+Reusable components
+Responsive design with Tailwind
+Modular folder structure
+
+
+
+✨ Features
+Multiple digital tools in one platform
+Clean and minimal UI
+Fully responsive design
+Fast client-side performance
+Easy navigation between tools
+
+
+src/
+ ├── components/     # Reusable UI components
+ ├── pages/          # Page-level components
+ ├── assets/         # Images / icons
+ ├── App.jsx
+ └── main.jsx
+
+
+ # Clone the repository
+git clone https://github.com/sourjo-ghosh/Digi-tools-platform-ass
+
+# Go to project directory
+cd Digi-tools-platform-ass
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+
+
+
+🌍 Live Demo
+
+[Live Link](https://digi-tools-ten.vercel.app/)
+
+🚧 Challenges Faced
+Managing state across multiple tools
+Keeping components reusable and clean
+Designing a responsive layout for all screen sizes
+
+
+📈 Future Improvements
+Add global state management (Context API)
+Add user authentication
+Save tool history
+Add more advanced tools
+Dark mode support
+
+
+📜 License
+
+This project is for educational purposes.
