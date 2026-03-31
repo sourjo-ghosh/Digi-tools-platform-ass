@@ -4,7 +4,7 @@ import { ShoppingCart, TextAlignJustify } from "lucide-react";
 
 const Navbar = ({ SelectedCart }) => {
   return (
-    <><div className="flex justify-between items-center navbar shadow bg-white border-b border-gray-300">
+    <><div className="px-5 md:px-15 lg:px-20 flex justify-between items-center navbar shadow bg-white border-b border-gray-300">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navbar = ({ SelectedCart }) => {
               </li>
             </ul>
           </div>
-          <h2 className="md:text-4xl lg:text-4xl text-2xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent leading-normal">
+          <h2 className="md:text-4xl lg:text-4xl text-xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent leading-normal">
             DigiTools
           </h2>
         </div>

@@ -17,7 +17,7 @@ const AddedProductsCard = ({ SelectedCart, setSelectedCart }) => {
   };
   if(showSuccess) return <OrderSuccess setShowSuccess={setShowSuccess} />;
   return (
-    <div className="border border-gray-300 p-5 rounded-4xl mt-10">
+    <div className="w-11/12 mx-auto border border-gray-300 p-5 rounded-4xl mt-10">
       <p className="font-bold text-xl text-[#101727] mb-4">Your Cart</p>
       <div>
         <div className="flex flex-col gap-4">

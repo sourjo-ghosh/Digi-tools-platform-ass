@@ -3,7 +3,7 @@ import React from "react";
 
 const GetStarted = () => {
   return (
-    <div className="py-25 flex px-5 mt-6 flex-col justify-center items-center bg-[#F9FAFC]">
+    <div className="w-11/12 mx-auto py-25 flex mt-6 flex-col justify-center items-center bg-[#F9FAFC]">
       <p className="text-[#101727] font-bold text-5xl">
         Get Started in 3 Steps
       </p>

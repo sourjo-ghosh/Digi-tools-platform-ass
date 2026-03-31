@@ -3,7 +3,7 @@ import {Check} from "lucide-react";
 
 const Pricing = () => {
   return (
-      <div className="py-15 flex flex-col justify-center items-center space-y-3">
+      <div className="w-11/12 mx-auto py-15 flex flex-col justify-center items-center space-y-3">
         <p className="font-extrabold text-5xl text-[#101727]">Simple, Transparent Pricing</p>
         <p className="text-[16px] text-[#627382]">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch mt-8 ">
