@@ -4,8 +4,7 @@ import { ShoppingCart, TextAlignJustify } from "lucide-react";
 
 const Navbar = ({ SelectedCart }) => {
   return (
-    <>
-      <div className="flex justify-between items-center navbar bg-white border-b border-gray-300">
+    <><div className="flex justify-between items-center navbar shadow bg-white border-b border-gray-300">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -57,7 +56,7 @@ const Navbar = ({ SelectedCart }) => {
         </div>
         <div className="navbar-end gap-7">
           <div className="relative">
-            <p className="absolute -top-3 rounded-full p-1 left-5 text-xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-[16px] text-white">
+            <p className="absolute -top-3 rounded-full px-2 py-1 left-5 text-xl bg-red-500 text-[16px] text-white">
               {SelectedCart.length}
             </p>
             <button className="rounded-4xl">

@@ -15,7 +15,7 @@ const Pricing = () => {
           <p className="font-bold text-[#101727] text-4xl">
             $0 <span className="text-[16px] text-[#627382]">/Month</span>
           </p>
-          <ul className="flex flex-col gap-2 flex-grow">
+          <ul className="flex flex-col gap-2 grow">
             <li className="text-[16px] text-[#627382] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Access to 10 free tools</li>
             <li className="text-[16px] text-[#627382] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Basic templates</li>
             <li className="text-[16px] text-[#627382] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Community support</li>
@@ -23,7 +23,7 @@ const Pricing = () => {
           </ul>
             <button className="btn text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-full py-4 rounded-4xl">Get Started Free</button>
           </div>
-          <div className="second-card relative flex flex-col bg-linear-to-r from-[#4F39F6] to-[#9514FA] space-y-5 border rounded-lg py-10 px-25">
+          <div className="second-card relative flex flex-col bg-linear-to-r from-[#4F39F6] to-[#9514FA] space-y-5 rounded-lg py-10 px-25">
             <p className="bg-[#FEF3C6] text-[14px] text-center p-3 rounded-4xl absolute -top-5 right-38 text-[#BB4D00]">Most Popular</p>
             <p className="text-[#FFFFFF] text-3xl font-bold">
               Pro
@@ -32,7 +32,7 @@ const Pricing = () => {
             <p className="font-bold text-[#FFFFFF] text-4xl">
               $29 <span className="text-[16px] text-[#FFFFFF]">/Month</span>
             </p>
-            <ul className="space-y-1 flex flex-col gap-2 flex-grow">
+            <ul className="space-y-1 flex flex-col gap-2 grow">
               <li className="text-[16px] text-[#ffffff] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Access to all premium tools</li>
               <li className="text-[16px] text-[#ffffff] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Unlimited templates</li>
               <li className="text-[16px] text-[#ffffff] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Priority support</li>
@@ -50,7 +50,7 @@ const Pricing = () => {
             <p className="font-bold text-[#101727] text-4xl">
               $99 <span className="text-[16px] text-[#627382]">/Month</span>
             </p>
-            <ul className="space-y-1 flex flex-col gap-2 flex-grow">
+            <ul className="space-y-1 flex flex-col gap-2 grow">
               <li className="text-[16px] text-[#627382] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Everything in Pro</li>
               <li className="text-[16px] text-[#627382] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Team collaboration</li>
               <li className="text-[16px] text-[#627382] flex gap-2 items-center"><Check className="text-[#30B868]"></Check> Custom integrations</li>

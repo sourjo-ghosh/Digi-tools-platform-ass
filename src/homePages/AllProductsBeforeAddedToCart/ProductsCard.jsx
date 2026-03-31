@@ -3,7 +3,7 @@ import React from "react";
 import Products from "./Products.jsx";
 
 const ProductsCard = ({ ProductsData, SelectedCart, setSelectedCart }) => {
-  console.log(SelectedCart.length)
+  // console.log(SelectedCart.length)
 //   console.log(ProductsData);
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-15">
