@@ -28,7 +28,7 @@ const GetStarted = () => {
           <p>Browse our catalog and select the tools that fit your needs.</p>
         </div>
         <div className="flex flex-col rounded-2xl relative justify-center items-center p-15 bg-white space-y-3">
-          <p className="absolute top-3 right-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-2 rounded-full">02</p>
+          <p className="absolute top-3 right-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-2 rounded-full">03</p>
             <span className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center">
               <Rocket></Rocket>
             </span>
