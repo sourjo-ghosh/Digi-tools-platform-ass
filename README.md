@@ -1,7 +1,11 @@
 📌 Digi Tools Platform
+<img width="1440" height="828" alt="Screenshot From 2026-03-31 23-28-51" src="https://github.com/user-attachments/assets/cde0f960-71bd-44d9-b19b-0bdef3281d3a" />
+
 🚀 Overview
 
 Digi Tools Platform is a frontend-focused web application built with React.js and Tailwind CSS as part of a bootcamp assignment. The project demonstrates the ability to build reusable components, manage state, and design a responsive UI while integrating multiple utility tools into a single platform.
+
+
 
 🎯 Objective
 
@@ -14,29 +18,30 @@ Create a scalable structure for adding multiple tools
 
 
 🛠️ Tech Stack
-Frontend: React.js
-Styling: Tailwind CSS
-Build Tool: Vite 
-Package Manager: npm
+* Frontend: React.js
+* Styling: Tailwind CSS
+* Build Tool: Vite 
+* Package Manager: npm
+
 
 
 🧠 Key Concepts Implemented
-Component-based design
-Props & state management
-Dynamic rendering
-Conditional UI rendering
-Reusable components
-Responsive design with Tailwind
-Modular folder structure
+* Component-based design
+* Props & state management
+* Dynamic rendering
+* Conditional UI rendering
+* Reusable components 
+* Responsive design with Tailwind
+* Modular folder structure
 
 
 
 ✨ Features
-Multiple digital tools in one platform
-Clean and minimal UI
-Fully responsive design
-Fast client-side performance
-Easy navigation between tools
+* Multiple digital tools in one platform
+* Clean and minimal UI
+* Fully responsive design
+* Fast client-side performance
+* Easy navigation between tools
 
 
 src/
